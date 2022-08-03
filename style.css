@@ -54,7 +54,7 @@
     
 }
 .text1 .border1{
-    background-color: rgb(214, 159, 8);
+    /* background-color: rgb(214, 159, 8); */
     color: aliceblue;
     width: 30%;
     margin: 0 auto;
@@ -90,7 +90,7 @@
     
 }
 .text2 .border2{
-    background-color: rgb(214, 159, 8);
+    /* background-color: rgb(214, 159, 8); */
     color: aliceblue;
     width: 30%;
     margin: 0 auto;
@@ -127,7 +127,7 @@
     
 }
 .text3 .border3{
-    background-color: rgb(214, 159, 8);
+    /* background-color: rgb(214, 159, 8); */
     color: aliceblue;
     width: 30%;
     margin: 0 auto;
@@ -141,3 +141,33 @@
     font-style: oblique;
 
 }
+
+.bimg4{
+    background-image: url(./images/logo.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+.text4{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+
+.text4 .border4{
+    background-color: rgb(214, 159, 8);
+    color: aliceblue;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: 700;
+}
+
